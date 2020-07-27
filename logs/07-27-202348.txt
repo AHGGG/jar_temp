@@ -1,0 +1,15 @@
+8:23:48 PM      Unzip www folder
+8:23:48 PM      Unzipping complete
+ 
+AWTRIX by Blueforcer
+starting version 21720
+ 
+Working directory:
+/root/jar_temp
+ 
+http://172.19.64.73:7002
+starting...
+log4j:WARN No appenders could be found for logger (org.eclipse.jetty.util.log).
+log4j:WARN Please initialize the log4j system properly.
+log4j:WARN See http://logging.apache.org/log4j/1.2/faq.html#noconfig for more info.
+8:23:51 PM      Connecting with WiFi
