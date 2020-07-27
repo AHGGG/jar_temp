@@ -44,3 +44,22 @@ processing BilibiliOnline
 4:57:19 PM      Updating BilibiliOnline
 processing Matrix
 processing Time
+4:59:05 PM      force update Time
+AWTRIX App Time.jar found
+Loading Apps finished
+AWTRIX App Matrix.jar found
+Loading Apps finished
+Active Apps: 2
+processing Matrix
+processing Time
+4:59:51 PM      Bilibili downloaded!
+No App found with name: 'Bilibili'
+AWTRIX App Bilibili.jar found
+Loading Apps finished
+Active Apps: 1
+processing Bilibili
+processing Matrix
+processing Time
+4:59:51 PM      Bilibili is not set up!
+4:59:56 PM      force update Bilibili
+4:59:56 PM      Updating Bilibili
