@@ -63,3 +63,6 @@ processing Time
 4:59:51 PM      Bilibili is not set up!
 4:59:56 PM      force update Bilibili
 4:59:56 PM      Updating Bilibili
+5:00:32 PM      Matrix connection Timeout!
+5:00:32 PM      Connecting with WiFi
+5:00:33 PM      Matrix has reconnected
