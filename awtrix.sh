@@ -13,13 +13,13 @@ if [ "$(id -u)" != "0" ]; then
 fi
 
 echo
-if (systemctl -q is-active awtrix.service)
+if (systemctl -q is-active awtrix1.service)
     then
     echo "${RED}AWTRIX SERVICE is running. Stopping..${NC}"
     echo
     echo
-    systemctl stop awtrix
-    systemctl disable awtrix
+    systemctl stop awtrix1
+    systemctl disable awtrix1
 fi
 
 echo "\e[32mUpdating...\e[0m"
@@ -57,13 +57,13 @@ echo
 '
 
 echo
-echo "\e[32mcreate Service\e[0m"
+echo "\e[32mcreate Service1\e[0m"
 
-rm -f /etc/systemd/system/awtrix.service
+rm -f /etc/systemd/system/awtrix1.service
 
-sudo cat >> /etc/systemd/system/awtrix.service <<'EOF'
+sudo cat >> /etc/systemd/system/awtrix1.service <<'EOF'
 [Unit]
-Description=AWTRIX HOST
+Description=AWTRIX1 HOST
 After=network.target
 
 [Service]
@@ -78,15 +78,15 @@ WantedBy=multi-user.target
 EOF
 echo
 
-echo "\e[32mStart AWTRIX HOST\e[0m"
+echo "\e[32mStart AWTRIX1 HOST\e[0m"
 
 systemctl daemon-reload
-systemctl enable awtrix
-systemctl start awtrix
+systemctl enable awtrix1
+systemctl start awtrix1
 
 echo "\e[32mChecking installation...\e[0m"
 sleep 10
-if (systemctl -q is-active awtrix.service) then
+if (systemctl -q is-active awtrix1.service) then
   echo
   echo "Installation successful."
   echo

@@ -1,0 +1,44 @@
+6:23:07 PM      Settings not found, default settings loaded!
+6:23:07 PM      Unzip www folder
+6:23:07 PM      Unzipping complete
+ 
+AWTRIX by Blueforcer
+starting version 21720
+ 
+Working directory:
+/root/jar_temp
+ 
+http://172.19.64.73:7000
+starting...
+log4j:WARN No appenders could be found for logger (org.eclipse.jetty.util.log).
+log4j:WARN Please initialize the log4j system properly.
+log4j:WARN See http://logging.apache.org/log4j/1.2/faq.html#noconfig for more info.
+6:23:09 PM      Connecting with WiFi
+6:28:19 PM      Show Bootanimation
+AWTRIX App Time.jar found
+Loading Apps finished
+Active Apps: 1
+processing Time
+6:28:25 PM      -----------------------------
+6:28:25 PM      Awtrix Ready - Start
+6:28:25 PM      -----------------------------
+6:29:28 PM      Moon downloaded!
+No App found with name: 'Moon'
+AWTRIX App Moon.jar found
+Loading Apps finished
+Active Apps: 1
+processing Moon
+processing Time
+6:29:37 PM      MyStrom downloaded!
+No App found with name: 'MyStrom'
+AWTRIX App MyStrom.jar found
+Loading Apps finished
+Active Apps: 1
+processing Moon
+processing MyStrom
+processing Time
+6:29:37 PM      MyStrom is not set up!
+6:30:00 PM      Restart matrix connection
+6:30:00 PM      Connecting with WiFi
+6:30:12 PM      force update Time
+6:30:12 PM      MyStrom is not set up!
