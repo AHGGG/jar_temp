@@ -42,3 +42,6 @@ processing Time
 6:30:00 PM      Connecting with WiFi
 6:30:12 PM      force update Time
 6:30:12 PM      MyStrom is not set up!
+processing Moon
+processing MyStrom
+processing Time
