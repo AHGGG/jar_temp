@@ -27,10 +27,13 @@ apt-get update -y
 sudo apt-get install default-jre -y
 
 echo "\e[32mMake Dirs\e[0m"
-mkdir -p /usr/local/awtrix
-cd /usr/local/awtrix
-rm -f /usr/local/awtrix/awtrix.jar
+mkdir -p /root/jar_temp
+cd /root/jar_temp
+# rm -f /root/jar_temp/awtrix.jar
 echo
+
+# 手动下载了jar包，这里就注释掉
+:'
 echo
 if [ "$1" = "beta" ]
   then
@@ -51,6 +54,8 @@ if [ "$1" = "beta" ]
       wget https://blueforcer.de/awtrix/stable/awtrix.jar
 fi
 echo
+'
+
 echo
 echo "\e[32mcreate Service\e[0m"
 
@@ -62,9 +67,9 @@ Description=AWTRIX HOST
 After=network.target
 
 [Service]
-WorkingDirectory=/usr/local/awtrix
+WorkingDirectory=/root/jar_temp
 Type=simple
-ExecStart=/usr/bin/java -jar /usr/local/awtrix/awtrix.jar
+ExecStart=/usr/bin/java -jar /root/jar_temp/awtrix.jar
 Restart=always
 RestartSec=3
 
