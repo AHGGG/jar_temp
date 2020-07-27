@@ -28,3 +28,32 @@ processing Time
 5:28:48 PM      -----------------------------
 5:28:48 PM      Awtrix Ready - Start
 5:28:48 PM      -----------------------------
+5:32:47 PM      Matrix connection Timeout!
+5:32:47 PM      Connecting with WiFi
+5:33:09 PM      Matrix has reconnected
+5:34:03 PM      Matrix connection Timeout!
+5:34:03 PM      Connecting with WiFi
+5:34:20 PM      Matrix has reconnected
+5:34:32 PM      Matrix connection Timeout!
+5:34:32 PM      Connecting with WiFi
+5:35:08 PM      Matrix has reconnected
+5:35:18 PM      Matrix connection Timeout!
+5:35:18 PM      Connecting with WiFi
+5:35:18 PM      Matrix has reconnected
+5:35:40 PM      Matrix connection Timeout!
+5:35:40 PM      Connecting with WiFi
+5:36:14 PM      Matrix has reconnected
+5:36:26 PM      Matrix connection Timeout!
+5:36:26 PM      Connecting with WiFi
+5:36:27 PM      Matrix has reconnected
+5:36:39 PM      Matrix connection Timeout!
+5:36:39 PM      Connecting with WiFi
+5:36:45 PM      Matrix has reconnected
+5:37:07 PM      Matrix connection Timeout!
+5:37:07 PM      Connecting with WiFi
+5:37:17 PM      Matrix has reconnected
+5:37:29 PM      Matrix connection Timeout!
+5:37:29 PM      Connecting with WiFi
+5:37:32 PM      Matrix has reconnected
+5:37:50 PM      Matrix connection Timeout!
+5:37:50 PM      Connecting with WiFi
