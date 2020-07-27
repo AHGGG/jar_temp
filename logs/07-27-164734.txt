@@ -22,3 +22,25 @@ processing Time
 4:52:01 PM      -----------------------------
 4:52:01 PM      Awtrix Ready - Start
 4:52:01 PM      -----------------------------
+4:54:38 PM      Restart matrix connection
+4:54:38 PM      Connecting with WiFi
+4:55:34 PM      Matrix connection Timeout!
+4:55:34 PM      Connecting with WiFi
+4:55:38 PM      Matrix has reconnected
+4:56:16 PM      BilibiliOnline downloaded!
+No App found with name: 'BilibiliOnline'
+AWTRIX App BilibiliOnline.jar found
+Loading Apps finished
+Active Apps: 1
+processing BilibiliOnline
+4:56:16 PM      Updating BilibiliOnline
+processing Time
+4:57:18 PM      Matrix downloaded!
+No App found with name: 'Matrix'
+AWTRIX App Matrix.jar found
+Loading Apps finished
+Active Apps: 1
+processing BilibiliOnline
+4:57:19 PM      Updating BilibiliOnline
+processing Matrix
+processing Time
