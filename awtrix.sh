@@ -13,13 +13,13 @@ if [ "$(id -u)" != "0" ]; then
 fi
 
 echo
-if (systemctl -q is-active awtrix1.service)
+if (systemctl -q is-active awtrix2.service)
     then
     echo "${RED}AWTRIX SERVICE is running. Stopping..${NC}"
     echo
     echo
-    systemctl stop awtrix1
-    systemctl disable awtrix1
+    systemctl stop awtrix2
+    systemctl disable awtrix2
 fi
 
 echo "\e[32mUpdating...\e[0m"
@@ -27,8 +27,8 @@ apt-get update -y
 sudo apt-get install default-jre -y
 
 echo "\e[32mMake Dirs\e[0m"
-mkdir -p /root/jar_temp
-cd /root/jar_temp
+mkdir -p /root/awtrix1/jar_temp
+cd /root//awtrix1/jar_temp
 # rm -f /root/jar_temp/awtrix.jar
 echo
 
@@ -57,19 +57,19 @@ echo
 '
 
 echo
-echo "\e[32mcreate Service1\e[0m"
+echo "\e[32mcreate Service2\e[0m"
 
-rm -f /etc/systemd/system/awtrix1.service
+rm -f /etc/systemd/system/awtrix2.service
 
-sudo cat >> /etc/systemd/system/awtrix1.service <<'EOF'
+sudo cat >> /etc/systemd/system/awtrix2.service <<'EOF'
 [Unit]
-Description=AWTRIX1 HOST
+Description=AWTRIX2 HOST
 After=network.target
 
 [Service]
-WorkingDirectory=/root/jar_temp
+WorkingDirectory=/root/awtrix1/jar_temp
 Type=simple
-ExecStart=/usr/bin/java -jar /root/jar_temp/awtrix.jar
+ExecStart=/usr/bin/java -jar /root/awtrix1/jar_temp/awtrix.jar
 Restart=always
 RestartSec=3
 
@@ -78,15 +78,15 @@ WantedBy=multi-user.target
 EOF
 echo
 
-echo "\e[32mStart AWTRIX1 HOST\e[0m"
+echo "\e[32mStart AWTRIX2 HOST\e[0m"
 
 systemctl daemon-reload
-systemctl enable awtrix1
-systemctl start awtrix1
+systemctl enable awtrix2
+systemctl start awtrix2
 
 echo "\e[32mChecking installation...\e[0m"
 sleep 10
-if (systemctl -q is-active awtrix1.service) then
+if (systemctl -q is-active awtrix2.service) then
   echo
   echo "Installation successful."
   echo

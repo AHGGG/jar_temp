@@ -1,0 +1,77 @@
+8:25:43 PM      Settings not found, default settings loaded!
+8:25:43 PM      Unzip www folder
+8:25:43 PM      Unzipping complete
+ 
+AWTRIX by Blueforcer
+starting version 21720
+ 
+Working directory:
+/root/awtrix1/jar_temp
+ 
+http://172.19.64.73:7000
+starting...
+log4j:WARN No appenders could be found for logger (org.eclipse.jetty.util.log).
+log4j:WARN Please initialize the log4j system properly.
+log4j:WARN See http://logging.apache.org/log4j/1.2/faq.html#noconfig for more info.
+8:25:45 PM      Connecting with WiFi
+okhttp3.internal.http2.ConnectionShutdownException
+	at okhttp3.internal.http2.Http2Connection.newStream(Http2Connection.java:219)
+	at okhttp3.internal.http2.Http2Connection.newStream(Http2Connection.java:205)
+	at okhttp3.internal.http2.Http2Codec.writeRequestHeaders(Http2Codec.java:105)
+	at okhttp3.internal.http.CallServerInterceptor.intercept(CallServerInterceptor.java:43)
+	at okhttp3.internal.http.RealInterceptorChain.proceed(RealInterceptorChain.java:92)
+	at okhttp3.internal.connection.ConnectInterceptor.intercept(ConnectInterceptor.java:45)
+	at okhttp3.internal.http.RealInterceptorChain.proceed(RealInterceptorChain.java:92)
+	at okhttp3.internal.http.RealInterceptorChain.proceed(RealInterceptorChain.java:67)
+	at okhttp3.internal.cache.CacheInterceptor.intercept(CacheInterceptor.java:93)
+	at okhttp3.internal.http.RealInterceptorChain.proceed(RealInterceptorChain.java:92)
+	at okhttp3.internal.http.RealInterceptorChain.proceed(RealInterceptorChain.java:67)
+	at okhttp3.internal.http.BridgeInterceptor.intercept(BridgeInterceptor.java:93)
+	at okhttp3.internal.http.RealInterceptorChain.proceed(RealInterceptorChain.java:92)
+	at okhttp3.internal.http.RetryAndFollowUpInterceptor.intercept(RetryAndFollowUpInterceptor.java:120)
+	at okhttp3.internal.http.RealInterceptorChain.proceed(RealInterceptorChain.java:92)
+	at okhttp3.internal.http.RealInterceptorChain.proceed(RealInterceptorChain.java:67)
+	at okhttp3.RealCall.getResponseWithInterceptorChain(RealCall.java:179)
+	at okhttp3.RealCall.execute(RealCall.java:63)
+	at anywheresoftware.b4h.okhttp.OkHttpClientWrapper.executeWithTimeout(OkHttpClientWrapper.java:156)
+	at anywheresoftware.b4h.okhttp.OkHttpClientWrapper.access$0(OkHttpClientWrapper.java:153)
+	at anywheresoftware.b4h.okhttp.OkHttpClientWrapper$ExecuteHelper.run(OkHttpClientWrapper.java:201)
+	at java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:511)
+	at java.util.concurrent.FutureTask.run(FutureTask.java:266)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
+	at java.lang.Thread.run(Thread.java:748)
+8:27:01 PM      Show Bootanimation
+AWTRIX App Time.jar found
+Loading Apps finished
+Active Apps: 1
+processing Time
+8:27:07 PM      -----------------------------
+8:27:07 PM      Awtrix Ready - Start
+8:27:07 PM      -----------------------------
+8:27:32 PM      AwtrixOrder downloaded!
+No App found with name: 'AwtrixOrder'
+AWTRIX App AwtrixOrder.jar found
+Loading Apps finished
+Active Apps: 1
+processing AwtrixOrder
+processing Time
+8:27:33 PM      AwtrixOrder is not set up!
+8:27:56 PM      Moon downloaded!
+No App found with name: 'Moon'
+AWTRIX App Moon.jar found
+Loading Apps finished
+Active Apps: 1
+processing AwtrixOrder
+processing Moon
+processing Time
+8:27:56 PM      AwtrixOrder is not set up!
+8:28:33 PM      force update Time
+8:28:33 PM      AwtrixOrder is not set up!
+8:28:50 PM      Restart matrix connection
+8:28:50 PM      Connecting with WiFi
+processing AwtrixOrder
+processing Moon
+processing Time
+8:39:43 PM      Matrix connection Timeout!
+8:39:43 PM      Connecting with WiFi

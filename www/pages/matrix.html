@@ -1,0 +1,480 @@
+﻿<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="UTF-16">
+    <meta content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no" name="viewport">
+    <title>AWTRIX 2</title>
+
+    <!-- Favicon-->
+    <link rel="icon" href="../favicon.ico" type="image/x-icon">
+
+    <!-- Google Fonts -->
+    <link href="https://fonts.googleapis.com/css?family=Roboto:400,700&subset=latin,cyrillic-ext" rel="stylesheet" type="text/css">
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet" type="text/css">
+
+    <script src="https://kit.fontawesome.com/f57ed06236.js" crossorigin="anonymous?ver=1595853829498"></script>
+
+
+    <!-- Bootstrap Core Css -->
+    <link href="../../plugins/bootstrap/css/bootstrap.css" rel="stylesheet">
+
+    <!-- Waves Effect Css -->
+    <link href="../plugins/node-waves/waves.css" rel="stylesheet" />
+
+    <!-- Animation Css -->
+    <link href="../plugins/animate-css/animate.css" rel="stylesheet" />
+
+    <!-- Colorpicker Css -->
+    <link href="../plugins/bootstrap-colorpicker/css/bootstrap-colorpicker.css" rel="stylesheet" />
+
+    <!-- Multi Select Css -->
+    <link href="../plugins/multi-select/css/multi-select.css" rel="stylesheet">
+
+    <!-- Bootstrap Spinner Css -->
+    <link href="../plugins/jquery-spinner/css/bootstrap-spinner.css" rel="stylesheet">
+
+    <!-- Bootstrap Tagsinput Css -->
+    <link href="../plugins/bootstrap-tagsinput/bootstrap-tagsinput.css" rel="stylesheet">
+
+    <!-- Bootstrap Select Css -->
+    <link href="../plugins/bootstrap-select/css/bootstrap-select.css" rel="stylesheet" />
+
+    <!-- noUISlider Css -->
+    <link href="../plugins/nouislider/nouislider.min.css" rel="stylesheet" />
+
+    <!-- Custom Css -->
+    <link href="../css/style.css" rel="stylesheet">
+
+    <!-- AdminBSB Themes. You can choose a theme from css/themes instead of get all themes -->
+    <link href="../css/themes/all-themes.css" rel="stylesheet" />
+
+    <!-- awtrix Interface -->
+    <script src="../js/awtrix_ws.js?ver=1595853829498"></script>
+</head>
+
+<body class="theme-blue-grey" id="body">
+
+    <!-- Page Loader -->
+    <div class="page-loader-wrapper">
+        <div class="loader">
+            <div class="preloader">
+                <div class="spinner-layer pl-red">
+                    <div class="circle-clipper left">
+                        <div class="circle"></div>
+                    </div>
+                    <div class="circle-clipper right">
+                        <div class="circle"></div>
+                    </div>
+                </div>
+            </div>
+            <p>请稍等</p>
+        </div>
+    </div>
+    <!-- #END# Page Loader -->
+    <!-- Overlay For Sidebars -->
+    <div class="overlay"></div>
+    <!-- #END# Overlay For Sidebars -->
+    <!-- Search Bar -->
+    <div class="search-bar">
+        <div class="search-icon">
+            <i class="material-icons">search</i>
+        </div>
+        <input type="text" placeholder="开始输入..">
+        <div class="close-search">
+            <i class="material-icons">close</i>
+        </div>
+    </div>
+    <!-- #END# Search Bar -->
+    <!-- Top Bar -->
+    <nav class="navbar">
+        <div class="container-fluid">
+            <div class="navbar-header">
+                <a href="javascript:void(0);" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#navbar-collapse" aria-expanded="false"></a>
+                <a href="javascript:void(0);" class="bars"></a>
+                <a id="title" class="navbar-brand" href="../../pages/home.html">AWTRIX</a>
+            </div>
+            <div class="collapse navbar-collapse" id="navbar-collapse">
+                <ul class="nav navbar-nav navbar-right">
+                </ul>
+            </div>
+        </div>
+    </nav>
+    <!-- #Top Bar -->
+    <section>
+        <!-- Left Sidebar -->
+        <aside id="leftsidebar" class="sidebar">
+
+            <!-- #User Info -->
+            <!-- Menu -->
+            <div class="menu">
+                <ul class="list">
+                    <li class="header">主导航</li>
+                    <li>
+                        <a href="../pages/home.html">
+                            <i class="awesomeicon fas fa-home"></i>
+                            <span>控制面板</span>
+                        </a>
+                    </li>
+                    <li>
+                        <a href="../pages/myApps.html">
+                            <i class="awesomeicon fas fa-th"></i>
+                            <span>我的应用</span>
+                        </a>
+                    </li>
+                    <li>
+                        <a href="../pages/appstore.html">
+                            <i class="awesomeicon fas fa-store"></i>
+                            <span>应用商城</span>
+                        </a>
+                    </li>
+                    <li>
+                        <a href="javascript:void(0);" class="menu-toggle">
+                            <i class="awesomeicon fas fa-icons"></i>
+                            <span>附加功能</span>
+                        </a>
+                        <ul class="ml-menu">
+
+                            <li>
+                                <a href="../pages/arcade.html">
+                                    <i class="awesomeiconsmall fas fa-gamepad"></i>
+                                    <span>街机模式</span>
+                                </a>
+                            </li>
+
+                            <li>
+                                <a href="../pages/icons.html">
+                                    <i class="awesomeiconsmall fas fa-grin-wink"></i>
+                                    <span>图标数据库</span>
+                                </a>
+                            </li>
+                            <li>
+                                <a href="../pages/newIcon.html">
+                                    <i class="awesomeiconsmall fas fa-grin-stars"></i>
+                                    <span>AWTRIXER</span>
+                                </a>
+                            </li>
+                        </ul>
+                    </li>
+                    <li>
+                        <a href="javascript:void(0);" class="menu-toggle">
+                            <i class="awesomeicon fas fa-cogs"></i>
+                            <span>设置</span>
+                        </a>
+                        <ul class="ml-menu">
+                            <li>
+                                <a href="../pages/hostsettings.html">
+                                    <i class="awesomeiconsmall fas fa-server"></i>
+                                    <span>主机</span>
+                                </a>
+                            </li>
+                            <li>
+                                <a href="../pages/premium.html">
+                                    <i class="awesomeiconsmall fas fa-trophy"></i>
+                                    <span>高级</span>
+                                </a>
+                            </li>
+                        </ul>
+                    </li>
+                    <li class="active">
+                        <a href="javascript:void(0);" class="menu-toggle">
+                            <i class="awesomeicon fas fa-signal"></i>
+                            <span>状态</span>
+                        </a>
+                        <ul class="ml-menu">
+                            <li>
+                                <a href="../pages/host.html">
+                                    <i class="awesomeiconsmall fas fa-server"></i>
+                                    <span>主机</span>
+                                </a>
+                            </li>
+                            <li class="active">
+                                <a href="../pages/matrix.html">
+                                    <i class="awesomeiconsmall fas fa-microchip"></i>
+                                    <span>Matrix</span>
+                                </a>
+                            </li>
+                            <li>
+                                <a href="../pages/log.html">
+                                    <i class="awesomeiconsmall fas fa-clipboard-list"></i>
+                                    <span>日志</span>
+                                </a>
+                            </li>
+                        </ul>
+                    </li>
+                    <li class="header">其他</li>
+                    <li>
+                        <a href="../pages/about.html" target="_blank">
+                            <i class="awesomeicon fas fa-address-card"></i>
+                            <span>关于我们</span>
+                        </a>
+                    </li>
+                    <li>
+                        <a href="../pages/terms.html" target="_blank">
+                            <i class="awesomeicon fas fa-user-shield"></i>
+                            <span>政策</span>
+                        </a>
+                    </li>
+                    <li>
+                        <a href="javascript:void(0);" class="menu-toggle">
+                            <i class="awesomeicon fas fa-heart"></i>
+                            <span>支持 AWTRIX</span>
+                        </a>
+                        <ul class="ml-menu">
+                            <li>
+                                <a href="https://paypal.me/blueforcer" target="_blank">
+                                    <i class="awesomeiconsmall fab fa-paypal"></i>
+                                    <span>捐赠</span>
+                                </a>
+                            </li>
+                            <li>
+                                <a href="https://www.patreon.com/blueforcer" target="_blank">
+                                    <i class="awesomeiconsmall fab fa-patreon"></i>
+                                    <span>赞助人</span>
+                                </a>
+                            </li>
+                            <li>
+                                <a href="https://blueforcer.de/shop/" target="_blank">
+                                    <i class="awesomeiconsmall fas fa-shopping-basket"></i>
+                                    <span>商店</span>
+                                </a>
+                            </li>
+                        </ul>
+                    </li>
+                    <li>
+                        <a href="javascript:void(0);" class="menu-toggle">
+                            <i class="awesomeicon fas fa-external-link-alt"></i>
+                            <span>链接</span>
+                        </a>
+                        <ul class="ml-menu">
+                            <li>
+                                <a href="https://awtrixdocs.blueforcer.de" target="_blank">
+                                    <i class="awesomeiconsmall fas fa-book"></i>
+                                    <span>文档</span>
+                                </a>
+                            </li>
+                            <li>
+                                <a href="https://forum.blueforcer.de" target="_blank">
+                                    <i class="awesomeiconsmall fab fa-wpforms"></i>
+                                    <span>论坛</span>
+                                </a>
+                            </li>
+                            <li>
+                                <a href="https://discord.gg/VUNc99B" target="_blank">
+                                    <i class="awesomeiconsmall fab fa-discord"></i>
+                                    <span>Discord</span>
+                                </a>
+                            </li>
+                            <li>
+                                <a href="https://poeditor.com/join/project/OT89XVkSEm" target="_blank">
+                                    <i class="awesomeiconsmall fas fa-language"></i>
+                                    <span>转化</span>
+                                </a>
+                            </li>
+
+                        </ul>
+                    </li>
+                    <li id="critical" hidden>
+                        <a href="../pages/critical.html">
+                            <i class="awesomeicon fas fa-exclamation-triangle" style="color: red;"></i>
+                            <span>严重的错误</span>
+                        </a>
+                    </li>
+                </ul>
+            </div>
+            <!-- #Menu -->
+            <!-- Footer -->
+            <div class="legal">
+                <div class="copyright">
+                    &copy; 2018 - 2020 <a href="https://blueforcer.de/">Blueforcer</a>
+                </div>
+                <div class="version">
+                    <b>版本: </b> <i id="serverversion">110719</i>
+                </div>
+            </div>
+            <!-- #Footer -->
+        </aside>
+    </section>
+    <!-- #END# Left Sidebar -->
+    <!-- Right Sidebar -->
+
+    <!-- #END# Right Sidebar -->
+    </section>
+
+    <section class="content">
+        <div class="container-fluid">
+            <!-- Color Pickers -->
+            <div class="row clearfix">
+
+                <div class="card" id="card">
+                    <div class="header">
+                        <h2>
+                            Matrix 状态
+                        </h2>
+                        <ul class="header-dropdown m-r--5">
+
+                        </ul>
+                    </div>
+                    <div class="body" id="content">
+                        <div class="row clearfix">
+                            <div class="col-lg-3 col-md-3 col-sm-6 col-xs-12">
+                                <div class="info-box-3 bg-pink hover-expand-effect">
+                                    <div class="icon">
+                                        <i class="material-icons">info</i>
+                                    </div>
+                                    <div class="content">
+                                        <div class="text">版本</div>
+                                        <div id="matrixversion" class="number">NULL</div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="col-lg-3 col-md-3 col-sm-6 col-xs-12" id="matrixupdate" onclick='awtrix_raiseEvent("update_click", null)' hidden>
+                                <div class="info-box-3 bg-light-green hover-expand-effect">
+                                    <div class="icon">
+                                        <i class="material-icons">update</i>
+                                    </div>
+                                    <div class="content">
+                                        <div class="text">MATRIX 升级</div>
+                                        <div class="number">可用</div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="col-lg-3 col-md-3 col-sm-6 col-xs-12">
+                                <div class="info-box-3 bg-blue hover-expand-effect">
+                                    <div class="icon">
+                                        <i class="material-icons">leak_add</i>
+                                    </div>
+                                    <div class="content">
+                                        <div class="text">已连接</div>
+                                        <div id="connect" class="number">NULL</div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="col-lg-3 col-md-3 col-sm-6 col-xs-12">
+                                <div class="info-box-3 bg-blue-grey hover-expand-effect">
+                                    <div class="icon">
+                                        <i class="material-icons">power</i>
+                                    </div>
+                                    <div class="content">
+                                        <div class="text">连接</div>
+                                        <div id="connection" class="number">NULL</div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="col-lg-3 col-md-3 col-sm-6 col-xs-12">
+                                <div class="info-box-3 bg-teal hover-expand-effect">
+                                    <div class="icon">
+                                        <i class="material-icons">more</i>
+                                    </div>
+                                    <div class="content">
+                                        <div class="text">IP</div>
+                                        <div id="ip" class="number">NULL</div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="col-lg-3 col-md-3 col-sm-6 col-xs-12">
+                                <div class="info-box-3 bg-indigo hover-expand-effect">
+                                    <div class="icon">
+                                        <i class="material-icons">wifi</i>
+                                    </div>
+                                    <div class="content">
+                                        <div class="text">SSID</div>
+                                        <div id="ssid" class="number">NULL</div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="col-lg-3 col-md-3 col-sm-6 col-xs-12">
+                                <div class="info-box-3 bg-cyan hover-expand-effect">
+                                    <div class="icon">
+                                        <i class="material-icons">timeline</i>
+                                    </div>
+                                    <div class="content">
+                                        <div class="text">延迟</div>
+                                        <div id="latency" class="number">NULL</div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="col-lg-3 col-md-3 col-sm-6 col-xs-12">
+                                <div class="info-box-3 bg-light-green hover-expand-effect">
+                                    <div class="icon">
+                                        <i class="material-icons">network_check</i>
+                                    </div>
+                                    <div class="content">
+                                        <div class="text">质量</div>
+                                        <div id="quality" class="number">NULL</div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="col-lg-3 col-md-3 col-sm-6 col-xs-12">
+                                <div class="info-box-3 bg-amber hover-expand-effect">
+                                    <div class="icon">
+                                        <i class="material-icons">wb_sunny</i>
+                                    </div>
+                                    <div class="content">
+                                        <div class="text">LUX</div>
+                                        <div id="lux" class="number">NULL</div>
+                                    </div>
+                                </div>
+                            </div>
+
+                        </div>
+
+                    </div>
+
+                </div>
+            </div>
+
+        </div>
+        </div>
+
+    </section>
+
+    <script type="text/javascript">
+        awtrix_connect("/matrixstats/ws");
+
+        function ShowMessage(titel, body, btn, link) {
+
+            $('#alertModalLabel').html(titel);
+            $('#alertModalBody').html(body);
+
+            if (typeof btn !== "undefined") {
+                $('#goToButton').html(btn);
+                document.getElementById('goToButton').href = link;
+            } else {
+                $('#goToButton').hide();
+            }
+            $('#mdModal').modal('show')
+        };
+    </script>
+
+
+    <!-- Jquery Core Js -->
+    <script src="../plugins/jquery/jquery.min.js?ver=1595853829498"></script>
+
+    <!-- Bootstrap Core Js -->
+    <script src="../plugins/bootstrap/js/bootstrap.js?ver=1595853829498"></script>
+
+    <!-- Select Plugin Js -->
+    <script src="../plugins/bootstrap-select/js/bootstrap-select.js?ver=1595853829498"></script>
+
+    <!-- Slimscroll Plugin Js -->
+    <script src="../plugins/jquery-slimscroll/jquery.slimscroll.js?ver=1595853829498"></script>
+
+    <!-- Bootstrap Colorpicker Js -->
+    <script src="../plugins/bootstrap-colorpicker/js/bootstrap-colorpicker.js?ver=1595853829498"></script>
+
+
+    <!-- Waves Effect Plugin Js -->
+    <script src="../plugins/node-waves/waves.js?ver=1595853829498"></script>
+
+    <script src="../js/sweetalert.min.js?ver=1595853829498"></script>
+    <script src="../js/dialogs.js?ver=1595853829498"></script>
+    <!-- Custom Js -->
+    <script src="../js/admin.js?ver=1595853829498"></script>
+
+    <!-- Demo Js -->
+    <script src="../js/others.js?ver=1595853829498"></script>
+
+</body>
+
+</html>
